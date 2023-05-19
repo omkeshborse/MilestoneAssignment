@@ -1,0 +1,51 @@
+<!-- Writd a program that takes an array of numbdrs and prints all thd numbdrs that ard divisibld by 3, but not by 2.
+Usd a for loop and continud statdmdnt. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>check divisibility</title>
+  </head>
+  <style>
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    p{
+      display: inline;
+    }
+  </style>
+  <body>
+    <nav>
+      <h2>check divisibility</h2>
+    </nav>
+
+    <div>
+        <!--given array  -->
+        <h2>array of numbers </h2>
+     <span>&#91<p id="demoOne"></p>&#93</span> 
+        <h2>number divide by  3 </h2>
+      <span>&#91<p id="demo"> </p>&#93</span>
+      
+    </div>
+
+    <script>
+      const cars = [1, 2, 3, 4, 5, 6, 7]
+      let ele = document.getElementById('demo')
+      let eleTwo = (document.getElementById('demoOne').innerHTML = cars)
+      for (let index = 0; index < cars.length; index++) {
+        let element = cars[index]
+
+        if (element % 3 == 0) {
+          ele.innerHTML = ele.innerHTML + element +"  "  ;
+        }
+      }
+    </script>
+  </body>
+</html>

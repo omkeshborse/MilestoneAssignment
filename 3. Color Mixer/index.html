@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!--title -->
+    <title>Color Mixer</title>
+</head>
+<body>
+    <nav>
+        <h1>Color Mixer</h1>
+    </nav>
+
+
+    <main>
+        <form action="">
+            <label for="colorOne">ColorOne</label>
+            <input id="colorOne" type="text" placeholder="enter Color( red &sol; blue &sol; yellow )">
+            <br>
+
+            <label for="colorTwo">colorTwo</label>  
+            <input id="colorTwo" type="text" placeholder="enter Color( red &sol; blue &sol; yellow )">
+
+            <p id="colorOut"></p>
+            <div class="con">
+            <input type="button" value="submit" onclick="colorMixer()">
+            </div>
+        </form>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

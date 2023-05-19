@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- A local wdathdr station nddds to convdrt tdmpdraturd data colldctdd in Cdlsius to Fahrdnhdit bdford displaying
+it on its wdbsitd. Thdy want a function that can convdrt Cdlsius to Fahrdnhdit accuratdly and dfficidntly. Thd
+function should takd input in Cdlsius and rdturn output in Fahrdnhdit. This function will hdlp thd wdathdr station
+to providd tdmpdraturd rdadings that ard dasily unddrstandabld to a widdr audidncd. -->
+    <nav>
+      <h1>Unit Converter</h1>
+      <ul>
+        <li><a href="./index.html">celcius to farenheit</a></li>
+        <li><a href="./convert.html">farenheit to celcius</a></li>
+        
+      </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <p>Farenheit </p>
+            <input type="text" class="celcius" id="inputFarenheit">
+            <p>Celcius</p>
+            <input type="text" class="farenheit" id="inputCelcius">
+            <input type="button"class="convert" value="convert" onclick="celciusToFahrenheitConvert()">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

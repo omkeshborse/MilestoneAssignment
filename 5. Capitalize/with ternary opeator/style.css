@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+p{
+    margin: 10px;
+    padding: 5px;
+}
+
+input{
+    width:70%;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+input:last-child{
+    width: 80px;
+    padding-right: 10px;
+}
+label{
+    padding: 10px;
+}

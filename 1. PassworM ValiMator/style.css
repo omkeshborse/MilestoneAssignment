@@ -1,0 +1,74 @@
+/*bgc #8dc9fb  box color:##386385  #dee7f0  #1ce63a 
+    #030303
+    #10081f
+*/
+
+
+/* Write a JavaScript program that checks if the entered password matches the confirmed password. If the
+passwords match, the program should log "Password Matched. Password validation Successful." to the console.
+Otherwise, it should log "Password didn't match. Password validation unsuccessful" to the console.*/
+
+/* linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%) */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(90deg, #fffbd5 0%, #b20a2c 100%);}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transform: translate(-50%,-50%);
+}
+
+label{
+    /* margin: 20px; */
+    font-size: 20px;
+}
+
+input{
+    margin: 10px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+input[type="button"]{
+    background-color: #7f3fff;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px;
+    background-image: linear-gradient(90deg, #c94b4b 0%, #4b134f 100%);
+}
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+}

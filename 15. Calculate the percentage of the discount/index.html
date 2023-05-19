@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Calculate the percentage of the discount</title>
+</head>
+<body>
+    <!-- discount = original orinal price * discount% / 100  -->
+    <!-- sp = original price - dicounted price -->
+
+    <nav>Calculate the percentage of the discount</nav>
+    <main>
+        <div>
+        <p>Enter total amount </p>
+        <input type="number" id="originalPrice">
+        <p>Enter discount percentage(only numbers)</p>
+        <input type="number" id="discountRate">
+        <button id="btn" onclick="calculateDiscount()" style="display: block;"> Calculate selling price </button>
+        <p>discounted price</p>
+        <input type="number" id="discountPirce">
+        </div>
+
+
+    </main>
+
+        <script src="./script.js"></script>
+</body>
+</html>
